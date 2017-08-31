@@ -1,0 +1,111 @@
+.add-post-box {
+	position: relative;
+    padding-bottom: 55px;
+}
+
+.select-sumthing {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.add-post-box p {
+	position: absolute;
+	top: 140px;
+	margin: 0 0 10px 0;
+	font-size: 0.9em;
+	font-style: italic;
+	width: 98%;
+	padding: 0 1%;
+	transition: background 0.5s ease, color 0.5s ease;
+}
+
+.add-post-box p.error {
+	background: #F78787;
+	color: #fff;
+}
+
+.button.add-post-to-zone {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#zone-posts-area {
+	margin: 0 0 0 20px;
+}
+
+#zoninator_organizer_zone_id,
+#zoninator_organizer select {
+	width: 100% !important;
+}
+
+#zoninator_organizer_optional_title{
+    width: 100% !important;
+    margin-bottom: 1em;
+}
+
+#zoninator_organizer_optional_link{
+    width: 100% !important;
+}
+
+#zoninator_organizer_optional_link_blank--wrapper{
+	margin-top: 5px;
+	margin-bottom: 1em;
+}
+
+#zoninator_organizer_optional_link_blank--wrapper label{
+	height: 16px;
+	line-height: 14px;
+	font-size: 0.9em;
+	display: inline-block;
+}
+
+#zone-posts-area li {
+	cursor: move;
+	border: 1px dotted #eee;
+	-moz-border-radius: 4px;
+	-wekbit-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+	background: #f5f5f5;
+	padding: 5px 5px 20px 5px;
+	position: relative;
+	transition: background 0.5s ease, color 0.5s ease;
+}
+
+#zone-posts-area li .number{
+	position: absolute;
+	left: -16px;
+	top: 5px;
+}
+
+#zone-posts-area li.ui-state-highlight{
+	min-height: 45px;
+	background: #FFF5A6;
+	padding: 0;
+	border: 1px dashed #A79508;
+}
+
+#zone-posts-area li .row-actions {
+	position: absolute;
+	font-size: 0.9em;
+	left: 5px;
+	bottom: 5px;
+	visibility: hidden;
+}
+
+#zone-posts-area li:hover .row-actions {
+	visibility: visible;
+}
+
+#zone-posts-area li .row-actions .delete {
+	color: #BC0B0B;
+}
+
+#zone-posts-area li.already-on-list {
+	background: #F78787;
+	color: #fff;
+}
+
+.hidden {
+	display: none;
+}
